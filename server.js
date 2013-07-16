@@ -47,9 +47,11 @@ app.get('/', csrf, routes.index);
 
 // Native SQL module using ODBC
 app.get('/api/status', api.status);
+app.get('/api/streamquery', api.streamquery);
 
 // Edge SQL module using ADO.NEt
 app.get('/edgeapi/status', edgeapi.status);
+app.get('/edgeapi/persons', edgeapi.persons);
 
 // Start server
 app.listen(port, function () {
