@@ -1,0 +1,28 @@
+{
+  "name": "sqlexpress",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cecildt/sqlexpress.git"
+  },
+  "keywords": [
+    "sqlserver",
+    "nodejs"
+  ],
+  "author": "Cecil du Toit",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/Cecildt/sqlexpress/issues"
+  },
+  "dependencies": {
+    "express": "~3.3.4",
+    "edge-sql": "~0.1.0",
+    "edge": "~0.7.12",
+    "jade": "~0.33.0"
+  }
+}
